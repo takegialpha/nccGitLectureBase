@@ -38,7 +38,7 @@ void drawRotatingRod(float t){
   float endX = centerX + lineLength * cos(2 * PI * fade);
   float endY = centerY + lineLength * sin(2 * PI * fade);
   
-  stroke(#ff4500);
+  stroke(10);
   
   line(startX, startY, endX, endY);
 }
