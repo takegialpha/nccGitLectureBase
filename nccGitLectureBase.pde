@@ -28,7 +28,7 @@ int lineLength = 100;
 
 void drawRotatingRod(float t){
   //-2t^3 + 3t^2
-  float fade = -2*t*t*t + 3*t*t;
+  float fade =t;
     
   //回転の中心
   int centerX = width/2;
